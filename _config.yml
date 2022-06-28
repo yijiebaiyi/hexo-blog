@@ -104,4 +104,4 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/yijiebaiyi/hexo-blog.git
-  branch: master
+  branch: hexo
