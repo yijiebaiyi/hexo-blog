@@ -18,3 +18,4 @@ runtime
 src/knifes
 public
 .env
+.deploy_git/
