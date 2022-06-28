@@ -19,3 +19,4 @@ src/knifes
 public
 .env
 .deploy_git/
+db.json
