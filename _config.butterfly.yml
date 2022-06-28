@@ -82,7 +82,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/avatar.jpeg
+  img: https://w.wallhaven.cc/full/z8/wallhaven-z8e8qy.jpg
   effect: true
 
 # Disable all banner image
