@@ -1,0 +1,22 @@
+image:
+  name: node:16.13.2-alpine
+  entrypoint: [""]
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - pwd
+  - npm install hexo-cli -g
+  - npm install
+
+pages:
+  tags:
+    - hexo-blog
+  script:
+    - hexo generate
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
